@@ -1,8 +1,8 @@
-from utils.config_loader import load_config
-from llm.openai_model import OpenAIModel
-from llm.hf_model import HFModel
-from llm.deepseek_model import DeepSeekModel
-from llm.fireworks_model import FireworksModel
+from llm_framework.utils.config_loader import load_config
+from llm_framework.llm.openai_model import OpenAIModel
+from llm_framework.llm.hf_model import HFModel
+from llm_framework.llm.deepseek_model import DeepSeekModel
+from llm_framework.llm.fireworks_model import FireworksModel
 
 
 

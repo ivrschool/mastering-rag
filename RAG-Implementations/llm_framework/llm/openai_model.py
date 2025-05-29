@@ -1,7 +1,7 @@
 from openai import OpenAI
-from llm.base import BaseLLM
-from utils.config_loader import get_env, load_config
-from llm.registry import register_model
+from llm_framework.llm.base import BaseLLM
+from llm_framework.utils.config_loader import get_env, load_config
+from llm_framework.llm.registry import register_model
 
 config = load_config()
 

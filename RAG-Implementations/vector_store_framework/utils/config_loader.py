@@ -6,7 +6,7 @@ load_dotenv()
 
 def load_config():
     config = ConfigParser()
-    config.read("config/config.ini")
+    config.read("vector_store_framework/config/config.ini")
     return config
 
 def get_env(key):

@@ -1,7 +1,7 @@
 from pinecone import Pinecone
-from vectorstores.base import BaseVectorStore
-from vectorstores.registry import register_vector_store
-from utils.config_loader import load_config, get_env
+from vector_store_framework.vectorstores.base import BaseVectorStore
+from vector_store_framework.vectorstores.registry import register_vector_store
+from vector_store_framework.utils.config_loader import load_config, get_env
 import time
 from typing import List, Dict
 

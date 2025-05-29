@@ -1,6 +1,6 @@
-from utils.config_loader import load_config
-from llm import openai_model, hf_model, deepseek_model, fireworks_model, cohere_model
-from llm.registry import get_model_class
+from llm_framework.utils.config_loader import load_config
+from llm_framework.llm import openai_model, hf_model, deepseek_model, fireworks_model, cohere_model
+from llm_framework.llm.registry import get_model_class
 # from llm.openai_model import OpenAIModel
 # from llm.hf_model import HFModel
 # from llm.deepseek_model import DeepSeekModel

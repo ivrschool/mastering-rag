@@ -1,6 +1,6 @@
-from utils.config_loader import load_config
+from llm_framework.utils.config_loader import load_config
 import importlib
-from llm.registry import get_model_class
+from llm_framework.llm.registry import get_model_class
 import os
 
 def auto_import_models():
@@ -10,7 +10,7 @@ def auto_import_models():
             filename.endswith(".py") and
             filename not in ["__init__.py", "base.py", "registry.py", "model_factory.py"]
         ):
-            module_name = f"llm.{filename[:-3]}"
+            module_name = f"llm_framework.llm.{filename[:-3]}"
             importlib.import_module(module_name)
 
 # Call this to ensure models are registered
