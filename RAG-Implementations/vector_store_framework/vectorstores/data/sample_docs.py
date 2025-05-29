@@ -1,10 +1,4 @@
-import os
-
-base = "vector_store_framework"
-
-structure = {
-
-        "sample_docs.py": """records = [
+records = [
     { "_id": "rec1", "chunk_text": "The Eiffel Tower was completed in 1889 and stands in Paris, France.", "category": "history" },
     { "_id": "rec2", "chunk_text": "Photosynthesis allows plants to convert sunlight into energy.", "category": "science" },
     { "_id": "rec3", "chunk_text": "Albert Einstein developed the theory of relativity.", "category": "science" },
@@ -53,22 +47,5 @@ structure = {
     { "_id": "rec46", "chunk_text": "The human body is made up of about 60% water.", "category": "biology" },
     { "_id": "rec47", "chunk_text": "The Industrial Revolution transformed manufacturing and transportation.", "category": "history" },
     { "_id": "rec48", "chunk_text": "Vincent van Gogh painted Starry Night.", "category": "art" },
-    { "_id": "rec49", "chunk_text": "Airplanes fly due to the principles of lift and aerodynamics.", "category": "physics" },
-    { "_id": "rec50", "chunk_text": "Renewable energy sources include wind, solar, and hydroelectric power.", "category": "energy" }
+    { "_id": "rec54", "chunk_text": "Airplanes fly due to the principles of lift and aerodynamics.", "category": "physics" },
 ]
-"""
-    }
-
-
-def create_structure(base_path, structure):
-    for name, content in structure.items():
-        path = os.path.join(base_path, name)
-        if isinstance(content, dict):
-            os.makedirs(path, exist_ok=True)
-            create_structure(path, content)
-        else:
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(content)
-
-create_structure(".", structure)
-print("Vector store framework scaffold (with sample_docs) created.")
