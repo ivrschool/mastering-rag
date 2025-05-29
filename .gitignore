@@ -1,5 +1,6 @@
 # Python cache and bytecode
 __pycache__/
+*__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -31,3 +32,8 @@ Thumbs.db
 *.ckpt
 *.pt
 *.bin
+
+
+vectorstores/data/
+
+vector_store_framework/vectorstores/data/
