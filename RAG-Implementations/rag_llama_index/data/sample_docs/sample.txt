@@ -1,0 +1,58 @@
+Pankaj Kumar
+LinkedIn: chandravanshi-pankaj chandravanshi.pankaj@gmail.com | 
+Last Updated on 26th December 2023
+ EDUCATION
+IITGUWAHATI
+Bachelor of Technology
+May 2020 | Guwahati, India CGPA: 7.87 / 10.0
+ST. XAVIER'S JR./SR. SCHOOL
+Intermediate of Science, 10+2
+April 2015 | CBSE, India Percentage: 93.0 / 100.0 Matriculation certificate April 2013 | CBSE, India
+CGPA: 10 / 10
+LINKS
+Github:// ivrschool LinkedIn:// pankaj Medium:// Arts2Survive
+COURSEWORK
+LangChain , AutoGen
+Collosal-AI , prompt Engineering AWS-SageMaker
+NLP with transformers
+Designing RESTful APIs
+DevOps Beginners to advanced* Data Structure and Algorithms* IBM Data Science Professional Deep Learning Specialization Data Processing and Visualization
+SKILLS
+Technology:
+• Python • C++* • GPT
+• LangChain • AutoGen
+• PyTorch, Tensorflow*, SkLearn • Laravel*, Flask, Vue.js*, React.js* • AWS, SageMaker, colossal-ai, Docker
+Inter-Personal:
+• Leadership • Positive attitude
+LANGUAGE
+• Hindi • English • Japanese*
+REMARKS:
+* Low Currency
+EXPERIENCE
+O-AI |PythonDeveloper(FullTime) Sept 2022 - Present | Remote
+• Refining GPT decision-making process, particularly in determining when to utilize its browsing tool versus its knowledge base for answering queries.
+• Ledateamof8internationaldevelopers,overseeingtasksandensuringquality. • Contributedinoptimizingteammanagementacrossvariousdivisions,
+contributing to efficient operations. This includes implementing objective
+evaluations and addressing developer concerns impartially.
+• Documentedclearexplanationsoflogicandthoughtprocessestoenhance
+GPT’s understanding in applying logic to coding challenges.
+VALUENCETECHNOLOGIES |AISoftwareEngineer(Freelancer) Sept-2022 - Present | Aug 2020 - Sept 2022 (Full Time) | Remote
+• helpmeeeKEIKO(https://helpmeee.jp):
+– Conductresearch,implementanddocumentfindings,debugalgorithms,
+and propose solutions for the chatbot.
+– Workingonoptimizingretrievinginformationfromuploadeddocuments (PDFs, text, and images) for multi-turn conversations.
+– WorkedonPromptEngineering,finetuning/trainingacustomJapanese GPT model using colossal-ai on AWS, and integrating ChatGPT API into Keiko AI chatbot for improved response times.
+– BuiltaRestAPIforamanned-suggestionAIsystemandautomated training, testing, and deployment using AWS services.
+• AutomateAnalysisofNanboysOnlineStore:
+– ImplementedAIweb-analyzerfortimeseriesforecastingtopredict
+customer visits to the Nanboya online store based on website CTR.
+– ImplementedthePageRankalgorithmusingNetworkX.
+• AI-TradingSystem:
+– Teamleader,guidedateamofMachineLearningSoftwareEngineersin
+designing and implementing an automated trading system. • YouTubeVideoAnalysis:
+– DevelopedECO-LiteandECO-Fulldeeplearningmodelstorecommend targeted advertisement videos to the appropriate audience.
+NATIONALTSHINGHUAUNIVERSITY |AIResearchIntern June 2019 – July 2019 | Hsinchu, Taiwan
+• Studiedandcarriedoutresearchworkinthedomainofimageaesthetic assessment using AI.
+AWARDS
+2019 Finalist 2019 1st/30
+AI Hackathon organized by C-DAC Pune, Nvidia, and ATOS. Global Affairs and Science Engagement (GASE) Summer Program by Ministry of Science and Technology (MOST) Popular Award.

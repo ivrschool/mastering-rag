@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Streaming API Demo</title>
+</head>
+<body>
+    <h1>Server-Sent Events Stream</h1>
+    <div id="output"></div>
+    <button id="stop">Stop Stream</button>
+    <button id="start">Start Stream</button>
+
+    <script>
+        let eventSource;
+
+        function startStream() {
+            eventSource = new EventSource("/stream");
+
+            eventSource.onmessage = function(event) {
+                const p = document.createElement("p");
+                p.textContent = event.data;
+                output.appendChild(p);
+            };
+
+            eventSource.onerror = function(error) {
+                console.error("EventSource failed:", error);
+                eventSource.close();
+            };
+        }
+
+        document.getElementById("stop").addEventListener("click", function() {
+            if (eventSource) {
+                eventSource.close();
+                const p = document.createElement("p");
+                p.textContent = "Stream stopped.";
+                output.appendChild(p);
+            }
+        });
+
+        document.getElementById("start").addEventListener("click", function() {
+            startStream();
+        });
+
+        const output = document.getElementById("output");
+        startStream();
+    </script>
+</body>
+</html>

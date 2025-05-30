@@ -1,8 +1,8 @@
 import os
 import pickle
-from utils.config_loader import load_config
-from parsers.factory import get_parser
-from chunkers.factory import get_chunker
+from document_parser.utils.config_loader import load_config
+from document_parser.parsers.factory import get_parser
+from document_parser.chunkers.factory import get_chunker
 
 def is_valid_parsed_file(path):
     try:

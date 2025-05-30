@@ -1,0 +1,27 @@
+Product Name: EchoTune Smart Speaker
+
+1. Introduction
+The EchoTune Smart Speaker is a voice-activated assistant designed to simplify your daily routine. With built-in support for music streaming, smart home control, and personal reminders, EchoTune is your perfect home companion.
+
+2. Getting Started
+To begin, plug in the EchoTune device using the provided power adapter. The LED indicator will turn blue, signaling it's ready for setup. Download the EchoTune app from the App Store or Google Play to complete the setup process.
+
+3. Voice Commands
+EchoTune responds to the wake word “Echo.” You can ask questions, play music, control smart devices, or check the weather. For example, say “Echo, play jazz music” or “Echo, turn off the living room lights.”
+
+4. Troubleshooting
+If EchoTune isn’t responding:
+- Check the Wi-Fi connection.
+- Ensure the microphone is not muted.
+- Restart the device by unplugging and plugging it back in.
+
+5. Safety and Maintenance
+Do not expose the device to water or extreme temperatures. Clean only with a dry cloth. Keep out of reach of children.
+
+6. Specifications
+- Dimensions: 4.5 in x 3.8 in x 3.8 in
+- Connectivity: Wi-Fi 802.11 a/b/g/n, Bluetooth 5.0
+- Power: 15W adapter included
+- Compatible with: Android 8.0+, iOS 12+
+
+For full documentation and support, visit www.echotune.com/support.

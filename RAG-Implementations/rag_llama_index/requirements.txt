@@ -1,0 +1,7 @@
+llama-index==0.11.4
+llama-index-vector-stores-pinecone==0.2.1
+llama-index-llms-fireworks
+sentence-transformers
+pinecone-client
+python-dotenv
+PyYAML

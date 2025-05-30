@@ -56,7 +56,7 @@ def generate_final_answer(top_docs, query):
 
 # --- Streamlit App ---
 st.set_page_config(page_title="RAG Assistant", layout="wide")
-st.title("🧠 RAG-Powered Q&A Assistant")
+st.title("RAG-Powered Q&A Assistant")
 
 # State variables
 if "documents_loaded" not in st.session_state:
@@ -66,7 +66,7 @@ if "documents_loaded" not in st.session_state:
     st.session_state.namespace = None
 
 # Upload and parse files once
-with st.expander("📁 Upload & Process Files", expanded=not st.session_state.documents_loaded):
+with st.expander("Upload & Process Files", expanded=not st.session_state.documents_loaded):
     uploaded_files = st.file_uploader("Upload .txt files", type="txt", accept_multiple_files=True)
     if st.button("Process Documents"):
         if not uploaded_files:
@@ -87,7 +87,7 @@ with st.expander("📁 Upload & Process Files", expanded=not st.session_state.do
 # Q&A Section
 if st.session_state.documents_loaded:
     st.markdown("---")
-    st.subheader("💬 Ask a Question")
+    st.subheader("Ask a Question")
     query = st.text_input("Enter your question:")
     top_k = st.slider("Top K Chunks", min_value=1, max_value=10, value=5)
 
@@ -101,5 +101,5 @@ if st.session_state.documents_loaded:
             st.markdown(f"**ID**: {doc['_id']} — **Score**: {round(doc['_score'], 2)}")
             st.code(doc["fields"]["chunk_text"], language="text")
 
-        st.subheader("✅ Final Answer:")
+        st.subheader("Final Answer:")
         st.success(answer)

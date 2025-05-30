@@ -1,7 +1,7 @@
 import os
-from utils.config_loader import load_config
-from utils.data_loader import load_pkl
-from vectorstores.factory import get_vector_store
+from vector_store_framework.utils.config_loader import load_config
+from vector_store_framework.utils.data_loader import load_pkl
+from vector_store_framework.vectorstores.factory import get_vector_store
 
 def normalize_list(value: str):
     return [v.strip() for v in value.split(",") if v.strip()]

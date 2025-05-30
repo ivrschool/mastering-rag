@@ -1,0 +1,22 @@
+llm:
+  provider: fireworks
+  model: accounts/fireworks/models/mixtral-8x7b-instruct
+  api_key_env: FIREWORKS_API_KEY
+
+embedding:
+  provider: huggingface
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+
+vector_store:
+  provider: pinecone
+  api_key_env: PINECONE_API_KEY
+  index_name: rag-index
+  dimension: 384
+  metric: cosine
+  cloud: aws
+  region: us-west-1
+
+chunking:
+  strategy: simple
+  chunk_size: 500
+  chunk_overlap: 50

@@ -35,5 +35,9 @@ Thumbs.db
 
 
 vectorstores/data/
-
+rag_orchestrator/
+projects/
 vector_store_framework/vectorstores/data/
+document_parser/projects/output/
+/vector_store_framework/vectorstores/data/*.pkl
+/document_parser/projects/output/*.pkl

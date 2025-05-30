@@ -1,4 +1,4 @@
-from llm.model_factory import get_model
+from llm_framework.llm.model_factory import get_model
 import os
 
 def main():
